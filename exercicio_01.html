@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO 01</title>
+</head>
+<body>
+
+
+
+<script>
+
+qtd = Number(prompt('DIGITE A QUANTIDADE DE NÚMEROS QUE DESEJA GUARDAR'))
+arr = []
+
+for(i=0;i<qtd;i++){
+    arr[i] = Number(prompt('DIGITE UM NUMERO'))
+}
+
+function crescente(a,b){
+    return(a-b)
+}
+
+arr.sort(crescente)
+document.write("VALORES DIGITADOS EM ORDEM CRESCENTE:<br>",arr)
+
+
+</script>
+    
+</body>
+</html>
